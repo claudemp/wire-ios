@@ -25,9 +25,9 @@ extension Button {
                                    title: "peoplepicker.services.add_service.button".localized)
     }
 
-    @objc public static func createServiceConversationButton() -> Button {
+    @objc public static func openServiceConversationButton() -> Button {
         return Button.createButton(styleClass: "dialogue-button-full",
-                                   title: "peoplepicker.services.create_conversation.item".localized)
+                                   title: "peoplepicker.services.open_conversation.item".localized)
     }
 
     @objc public static func createDestructiveServiceButton() -> Button {
